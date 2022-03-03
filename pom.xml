@@ -45,14 +45,6 @@
       <artifactId>quarkus-hibernate-orm-panache</artifactId>
     </dependency>
     <dependency>
-        <groupId>io.quarkus</groupId>
-        <artifactId>quarkus-openshift</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>io.quarkus</groupId>
-        <artifactId>quarkus-kubernetes-config</artifactId>
-    </dependency>
-    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-flyway</artifactId>
     </dependency>
@@ -69,6 +61,14 @@
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-openshift</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-kubernetes-config</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
